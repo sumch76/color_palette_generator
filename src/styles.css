@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+#current-palette,
+.saved-palette {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.color-block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+#generate,
+#save {
+  margin: 10px;
+  padding: 10px;
+}
+
+.delete-palette-button {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  color: black;
+  background-color: #8dbb8a;
+  border-radius: 10px;
+}
